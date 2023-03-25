@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var count=222
+    @State var count=222111
+    @State var count2=222111
     var body: some View {
         Text("Hello, world!\(count)")
             .padding()
